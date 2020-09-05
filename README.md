@@ -38,7 +38,7 @@ Obsah adresáře umístíme na náš lokální server (v MAMP/XAMP to je např. 
 V konzoli si otevřeme rootovský adresář tohoto balíčku příkazem `cd <vaše-cesta>/htdocs/www` a poté nainstalujeme všechny závislosti příkazem `npm install`. 
 
 ### Spuštění
-Projekt spouštíme příkazem `npm run start`. Po spuštění bude webpack překládat naše `.vue` komponenty a další kód do prohlížečem spustitelného JavaScriptu, který se nachází v `www/assets/bundle.js`. 
+Projekt spouštíme příkazem `npm run start`. Po spuštění bude webpack překládat naše `.vue` komponenty a další kód do prohlížečem spustitelného JavaScriptu, který se nachází v `www/assets/bundle.js`. Nette aplikaci spouštíme standardním způsobem na adrese localhostu.
 
 ## Závislosti šablony
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	{* Hlavička *}
+	<head>
+		{* Meta *}
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		{* Název *}
+		<title>Nette sandbox</title>
+		{block head}{/block}
+	</head>
+	{* Tělo *}
+	<body>
+		{* Flash zprávy *}
+		<div n:foreach='$flashes as $flash' n:class='alert, 'alert-' . $flash->type'>{$flash->message}</div>
+		{* Aplikace (Vue) *}
+		<div id='app'>
+			{* Obsah *}
+			{include content}
+		</div>
+		{* Scripty *}
+		{block scripts}
+			<script src='{webpack bundle.js}'></script>
+		{/block}
+	</body>
+</html>

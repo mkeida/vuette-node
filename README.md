@@ -34,7 +34,7 @@ Je potřeba mít nainstalované běhové prostředí Node.js a správce balíčk
 ### Serverová část
 Obsah adresáře umístíme na náš lokální server (v MAMP/XAMP to je např. složka `htdocs`) a v případě, že jsme obsah nenakopírovali do rootu této složky upravíme i směrování v souborech `.htaccess`. 
 
-### Závislosti šablony
+### Klientská část
 V konzoli si otevřeme rootovský adresář tohoto balíčku příkazem `cd <vaše-cesta>/htdocs/www` a poté nainstalujeme všechny závislosti příkazem `npm install`. 
 
 ### Spuštění

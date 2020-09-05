@@ -1,3 +1,5 @@
+![vuette](https://user-images.githubusercontent.com/34581569/92305628-5000a900-ef89-11ea-96af-1a17db4eecf5.png)
+
 # vuette-node
 Kombinace frameworků Nette a Vue s build procesem na Node.js. Šablona je postavena na webpacku.
 
@@ -22,6 +24,9 @@ Komponenta je poté přeložena na:
 ```html
 <a href="https://web.cz/homepage/default/1?chapter=7#heading">Odkaz</a>
 ```
+## API presenter
+
+Šablona obsahuje předpřipravený `ApiPresenter`, jež je zodpovědný za generování odkazů pro komponentu `NLink.vue`.
 
 ## Instalace
 Je potřeba mít nainstalované běhové prostředí Node.js a správce balíčků NPM.

@@ -9,7 +9,7 @@
     import $ from 'jquery';
 
     // Export component
-    module.exports = {
+    export default {
         // Data komponenty
         data: function() {
             return {

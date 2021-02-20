@@ -29,6 +29,6 @@ new Vue({
     },
     // Komponenty aplikace
     components: {
-        'my-component': myComponent
+        'my-component': myComp
     }
 });
